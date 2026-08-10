@@ -1,54 +1,54 @@
 {
-  "store_name": "Pizza Planet",
-  "site_title": "Pizza Planet – La mejor pizza de la galaxia",
-  "hero_title": "La mejor pizza de <span class=\"hl\">la galaxia</span> 🚀",
   "badge_category": "especialidades",
+  "catalog_notify_token": "",
+  "catalog_notify_url": "",
   "categories": {
-    "pizzas-familiares": "🍕 Pizzas Familiares",
-    "pizzas-medianas": "🍕 Pizzas Medianas",
-    "especialidades": "⭐ Especialidades",
+    "bebidas": "🥤 Bebidas",
     "combos-individuales": "🍱 Combos Individuales",
     "ensaladas": "🥗 Ensaladas",
-    "porciones": "🍟 Porciones",
-    "bebidas": "🥤 Bebidas"
+    "especialidades": "⭐ Especialidades",
+    "pizzas-familiares": "🍕 Pizzas Familiares",
+    "pizzas-medianas": "🍕 Pizzas Medianas",
+    "porciones": "🍟 Porciones"
   },
   "currency": "$",
-  "theme_primary": "#C0182B",
-  "theme_accent": "#F5C000",
-  "whatsapp_number": "593969064106",
-  "whatsapp_message": "¡Hola Pizza Planet! Quiero hacer un pedido:",
-  "min_units": null,
-  "min_days_advance": null,
-  "catalog_notify_url": "",
-  "catalog_notify_token": "",
+  "hero_title": "La mejor pizza de \u003cspan class=\"hl\"\u003ela galaxia\u003c/span\u003e 🚀",
   "location": {
     "sedes": [
       {
-        "nombre": "Sede Católica",
         "direccion": "Gerónimo Carrión E10-24 y 12 de Octubre",
+        "nombre": "Sede Católica",
         "telefono": "0995277651"
       },
       {
-        "nombre": "Sede Valle de los Chillos",
         "direccion": "Quito Bowling Plaza, Av. Gral. Rumiñahui y Ambato",
+        "nombre": "Sede Valle de los Chillos",
         "telefono": "+593998014215"
       },
       {
-        "nombre": "Sede Real Audiencia",
         "direccion": "Av. Real Audiencia y Av. del Maestro, esquina",
+        "nombre": "Sede Real Audiencia",
         "telefono": "+593999073038"
       },
       {
-        "nombre": "Sede UTE – Rumipamba",
         "direccion": "Rumipamba y Bourgeois, esquina",
+        "nombre": "Sede UTE – Rumipamba",
         "telefono": "+593987657085"
       },
       {
-        "nombre": "Sede La Michelena",
         "direccion": "Av. Michelena Oe5-233",
+        "nombre": "Sede La Michelena",
         "telefono": "0991626250"
       }
     ],
     "telefono_principal": "+593969064106"
-  }
+  },
+  "min_days_advance": null,
+  "min_units": null,
+  "site_title": "Pizza Planet – La mejor pizza de la galaxia",
+  "store_name": "Pizza Planet",
+  "theme_accent": "#F5C000",
+  "theme_primary": "#C0182B",
+  "whatsapp_message": "¡Hola Pizza Planet! Quiero hacer un pedido:",
+  "whatsapp_number": "593969064106"
 }

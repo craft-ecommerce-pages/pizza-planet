@@ -1,367 +1,9 @@
 [
   {
-    "id": "9f9d99d1-2f48-4ccc-a86e-34c6698f353a",
-    "slug": "pizza-familiar",
-    "nombre": "Pizza Familiar",
-    "precio": 9.0,
-    "precio_promo": "",
-    "categorias": [
-      "pizzas-familiares"
-    ],
-    "descripcion": "Pizza de ESPECIALIDAD 35cm — 12 porciones 🍕",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2026/05/ChatGPT-Image-27-may-2026-06_54_47-p.m.webp"
-    ],
-    "variantes": [
-      {
-        "name": "Sabor Pizza",
-        "options": [
-          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
-          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
-          "Argentina (Mozzarella, doble jamón)",
-          "Francesa (Mozzarella, jamón, champiñones)",
-          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
-          "Italiana (Mozzarella, jamón y pepperoni)",
-          "New York (Doble mozzarella, doble pepperoni)",
-          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
-          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
-          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
-          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
-          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
-      }
-    ],
-    "sku": "1550"
-  },
-  {
-    "id": "64797cdb-aad8-48a9-af3c-5c71714e8259",
-    "slug": "pizza-familiar-bebida-1lt",
-    "nombre": "Pizza Familiar + Bebida 1lt",
-    "precio": 9.99,
-    "precio_promo": "",
-    "categorias": [
-      "pizzas-familiares"
-    ],
-    "descripcion": "Pizza de ESPECIALIDAD 35cm — 12 porciones 🍕 + Bebida 1lt. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u. Envío: aplica hasta 5km.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/FAMILIARBEBIDA1LT.webp"
-    ],
-    "variantes": [
-      {
-        "name": "Sabor Pizza",
-        "options": [
-          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
-          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
-          "Argentina (Mozzarella, doble jamón)",
-          "Francesa (Mozzarella, jamón, champiñones)",
-          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
-          "Italiana (Mozzarella, jamón y pepperoni)",
-          "New York (Doble mozzarella, doble pepperoni)",
-          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
-          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
-          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
-          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
-          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
-      },
-      {
-        "name": "Bebida 1lt",
-        "options": [
-          "Pepsi 1 litro",
-          "Manzana 1 litro",
-          "Seven Up 1 litro",
-          "CocaCola 1 litro",
-          "CocaCola Zero 1 litro",
-          "Sprite 1 litro",
-          "Fanta 1 litro",
-          "Fuzetea 1 litro"
-        ]
-      }
-    ],
-    "sku": "680"
-  },
-  {
-    "id": "c125a7e4-3b97-4ac5-8f1e-ee6b2ddd90d1",
-    "slug": "2-pizzas-familiares",
-    "nombre": "2 Pizzas Familiares",
-    "precio": 17.0,
-    "precio_promo": "",
-    "categorias": [
-      "pizzas-familiares"
-    ],
-    "descripcion": "2 Pizzas de ESPECIALIDAD 35cm — 12 porciones c/u 🍕. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u. Envío: aplica hasta 5km.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/2-pizzas-familiares-2.webp"
-    ],
-    "variantes": [
-      {
-        "name": "Sabor Pizza 1",
-        "options": [
-          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
-          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
-          "Argentina (Mozzarella, doble jamón)",
-          "Francesa (Mozzarella, jamón, champiñones)",
-          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
-          "Italiana (Mozzarella, jamón y pepperoni)",
-          "New York (Doble mozzarella, doble pepperoni)",
-          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
-          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
-          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
-          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
-          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
-      },
-      {
-        "name": "Sabor Pizza 2",
-        "options": [
-          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
-          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
-          "Argentina (Mozzarella, doble jamón)",
-          "Francesa (Mozzarella, jamón, champiñones)",
-          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
-          "Italiana (Mozzarella, jamón y pepperoni)",
-          "New York (Doble mozzarella, doble pepperoni)",
-          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
-          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
-          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
-          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
-          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
-      }
-    ],
-    "sku": "685"
-  },
-  {
-    "id": "7bf608a0-1e38-4e00-b616-f0d17116a14b",
-    "slug": "2-familiares-bebida-1lt",
-    "nombre": "2 Familiares + Bebida 1lt",
-    "precio": 18.0,
-    "precio_promo": "",
-    "categorias": [
-      "pizzas-familiares"
-    ],
-    "descripcion": "2 Pizzas de ESPECIALIDAD 35cm — 12 porciones c/u 🍕 + Gaseosa 1lt. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u. Envío: aplica hasta 5km.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/2FAM-BEBIDA.webp"
-    ],
-    "variantes": [
-      {
-        "name": "Sabor Pizza 1",
-        "options": [
-          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
-          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
-          "Argentina (Mozzarella, doble jamón)",
-          "Francesa (Mozzarella, jamón, champiñones)",
-          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
-          "Italiana (Mozzarella, jamón y pepperoni)",
-          "New York (Doble mozzarella, doble pepperoni)",
-          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
-          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
-          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
-          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
-          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
-      },
-      {
-        "name": "Sabor Pizza 2",
-        "options": [
-          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
-          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
-          "Argentina (Mozzarella, doble jamón)",
-          "Francesa (Mozzarella, jamón, champiñones)",
-          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
-          "Italiana (Mozzarella, jamón y pepperoni)",
-          "New York (Doble mozzarella, doble pepperoni)",
-          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
-          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
-          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
-          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
-          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
-      },
-      {
-        "name": "Bebida 1lt",
-        "options": [
-          "Pepsi 1 litro",
-          "Manzana 1 litro",
-          "Seven Up 1 litro",
-          "CocaCola 1 litro",
-          "CocaCola Zero 1 litro",
-          "Sprite 1 litro",
-          "Fanta 1 litro",
-          "Fuzetea 1 litro"
-        ]
-      }
-    ],
-    "sku": "687"
-  },
-  {
-    "id": "dd3be46a-c3a5-4e21-82f0-551225204bb8",
-    "slug": "3x2-pizzas-familiares",
-    "nombre": "⭐ 3×2 Pizzas Familiares",
-    "precio": 26.99,
-    "precio_promo": "",
-    "categorias": [
-      "pizzas-familiares"
-    ],
-    "descripcion": "3 Pizzas de ESPECIALIDAD 35cm — 12 porciones c/u 🍕. Envío Gratis* hasta 5km. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/3-pizzas-familiares.webp"
-    ],
-    "variantes": [
-      {
-        "name": "Sabor Pizza 1",
-        "options": [
-          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
-          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
-          "Argentina (Mozzarella, doble jamón)",
-          "Francesa (Mozzarella, jamón, champiñones)",
-          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
-          "Italiana (Mozzarella, jamón y pepperoni)",
-          "New York (Doble mozzarella, doble pepperoni)",
-          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
-          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
-          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
-          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
-          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
-      },
-      {
-        "name": "Sabor Pizza 2",
-        "options": [
-          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
-          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
-          "Argentina (Mozzarella, doble jamón)",
-          "Francesa (Mozzarella, jamón, champiñones)",
-          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
-          "Italiana (Mozzarella, jamón y pepperoni)",
-          "New York (Doble mozzarella, doble pepperoni)",
-          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
-          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
-          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
-          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
-          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
-      },
-      {
-        "name": "Sabor Pizza 3",
-        "options": [
-          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
-          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
-          "Argentina (Mozzarella, doble jamón)",
-          "Francesa (Mozzarella, jamón, champiñones)",
-          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
-          "Italiana (Mozzarella, jamón y pepperoni)",
-          "New York (Doble mozzarella, doble pepperoni)",
-          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
-          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
-          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
-          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
-          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
-      }
-    ],
-    "sku": "690"
-  },
-  {
-    "id": "2089fb64-8eba-414b-a7ca-5bb763b414e6",
-    "slug": "festin-familiar",
-    "nombre": "Festín Familiar",
-    "precio": 23.99,
-    "precio_promo": "",
-    "categorias": [
-      "pizzas-familiares"
-    ],
-    "descripcion": "2 Pizzas Familiares + 2 ensaladas + 12 panes de ajo + 2 bebidas de 1lt. Envío Gratis* hasta 5km. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2026/01/FESTIN-FAMILIAR.webp"
-    ],
-    "variantes": [
-      {
-        "name": "Sabor Pizza 1",
-        "options": [
-          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
-          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
-          "Argentina (Mozzarella, doble jamón)",
-          "Francesa (Mozzarella, jamón, champiñones)",
-          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
-          "Italiana (Mozzarella, jamón y pepperoni)",
-          "New York (Doble mozzarella, doble pepperoni)",
-          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
-          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
-          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
-          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
-          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
-      },
-      {
-        "name": "Sabor Pizza 2",
-        "options": [
-          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
-          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
-          "Argentina (Mozzarella, doble jamón)",
-          "Francesa (Mozzarella, jamón, champiñones)",
-          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
-          "Italiana (Mozzarella, jamón y pepperoni)",
-          "New York (Doble mozzarella, doble pepperoni)",
-          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
-          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
-          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
-          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
-          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
-      },
-      {
-        "name": "Bebida 1lt",
-        "options": [
-          "Pepsi 1 litro",
-          "Manzana 1 litro",
-          "Seven Up 1 litro",
-          "CocaCola 1 litro",
-          "CocaCola Zero 1 litro",
-          "Sprite 1 litro",
-          "Fanta 1 litro",
-          "Fuzetea 1 litro"
-        ]
-      },
-      {
-        "name": "Bebida 2 (1lt)",
-        "options": [
-          "Pepsi 1 litro",
-          "Manzana 1 litro",
-          "Seven Up 1 litro",
-          "CocaCola 1 litro",
-          "CocaCola Zero 1 litro",
-          "Sprite 1 litro",
-          "Fanta 1 litro",
-          "Fuzetea 1 litro"
-        ]
-      }
-    ],
-    "sku": "1207"
-  },
-  {
     "id": "7c1f3660-c88a-490c-94de-d140840fcb0e",
     "slug": "1-pizza-mediana",
     "nombre": "1 Pizza Mediana",
-    "precio": 7.0,
+    "precio": "7.0",
     "precio_promo": "",
     "categorias": [
       "pizzas-medianas"
@@ -369,11 +11,10 @@
     "descripcion": "Pizza de ESPECIALIDAD 30cm — 8 porciones 🍕",
     "stock": null,
     "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/12/ChatGPT-Image-27-may-2026-06_18_52-p.m.webp"
+      "/producto/1-pizza-mediana/images/1-pizza-mediana-1.webp"
     ],
     "variantes": [
       {
-        "name": "Sabor Pizza",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -397,7 +38,7 @@
     "id": "f6a6ab95-11b2-48ce-a633-da52158416d6",
     "slug": "1-pizza-mediana-bebida-1lt",
     "nombre": "1 Pizza Mediana + Bebida 1lt",
-    "precio": 8.5,
+    "precio": "8.5",
     "precio_promo": "",
     "categorias": [
       "pizzas-medianas"
@@ -405,11 +46,10 @@
     "descripcion": "Pizza de ESPECIALIDAD 30cm — 8 porciones 🍕 + Bebida 1lt. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u. Envío: aplica hasta 5km.",
     "stock": null,
     "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/MEDIANA-BEBIDA-1LT.webp"
+      "/producto/1-pizza-mediana-bebida-1lt/images/1-pizza-mediana-bebida-1lt-1.webp"
     ],
     "variantes": [
       {
-        "name": "Sabor Pizza",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -427,7 +67,6 @@
         ]
       },
       {
-        "name": "Bebida 1lt",
         "options": [
           "Pepsi 1 litro",
           "Manzana 1 litro",
@@ -443,10 +82,126 @@
     "sku": "770"
   },
   {
+    "id": "7bf608a0-1e38-4e00-b616-f0d17116a14b",
+    "slug": "2-familiares-bebida-1lt",
+    "nombre": "2 Familiares + Bebida 1lt",
+    "precio": "18.0",
+    "precio_promo": "",
+    "categorias": [
+      "pizzas-familiares"
+    ],
+    "descripcion": "2 Pizzas de ESPECIALIDAD 35cm — 12 porciones c/u 🍕 + Gaseosa 1lt. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u. Envío: aplica hasta 5km.",
+    "stock": null,
+    "imagenes": [
+      "/producto/2-familiares-bebida-1lt/images/2-familiares-bebida-1lt-1.webp"
+    ],
+    "variantes": [
+      {
+        "options": [
+          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
+          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
+          "Argentina (Mozzarella, doble jamón)",
+          "Francesa (Mozzarella, jamón, champiñones)",
+          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
+          "Italiana (Mozzarella, jamón y pepperoni)",
+          "New York (Doble mozzarella, doble pepperoni)",
+          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
+          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
+          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
+          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
+          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
+          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
+        ]
+      },
+      {
+        "options": [
+          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
+          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
+          "Argentina (Mozzarella, doble jamón)",
+          "Francesa (Mozzarella, jamón, champiñones)",
+          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
+          "Italiana (Mozzarella, jamón y pepperoni)",
+          "New York (Doble mozzarella, doble pepperoni)",
+          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
+          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
+          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
+          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
+          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
+          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
+        ]
+      },
+      {
+        "options": [
+          "Pepsi 1 litro",
+          "Manzana 1 litro",
+          "Seven Up 1 litro",
+          "CocaCola 1 litro",
+          "CocaCola Zero 1 litro",
+          "Sprite 1 litro",
+          "Fanta 1 litro",
+          "Fuzetea 1 litro"
+        ]
+      }
+    ],
+    "sku": "687"
+  },
+  {
+    "id": "c125a7e4-3b97-4ac5-8f1e-ee6b2ddd90d1",
+    "slug": "2-pizzas-familiares",
+    "nombre": "2 Pizzas Familiares",
+    "precio": "17.0",
+    "precio_promo": "",
+    "categorias": [
+      "pizzas-familiares"
+    ],
+    "descripcion": "2 Pizzas de ESPECIALIDAD 35cm — 12 porciones c/u 🍕. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u. Envío: aplica hasta 5km.",
+    "stock": null,
+    "imagenes": [
+      "/producto/2-pizzas-familiares/images/2-pizzas-familiares-1.webp"
+    ],
+    "variantes": [
+      {
+        "options": [
+          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
+          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
+          "Argentina (Mozzarella, doble jamón)",
+          "Francesa (Mozzarella, jamón, champiñones)",
+          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
+          "Italiana (Mozzarella, jamón y pepperoni)",
+          "New York (Doble mozzarella, doble pepperoni)",
+          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
+          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
+          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
+          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
+          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
+          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
+        ]
+      },
+      {
+        "options": [
+          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
+          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
+          "Argentina (Mozzarella, doble jamón)",
+          "Francesa (Mozzarella, jamón, champiñones)",
+          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
+          "Italiana (Mozzarella, jamón y pepperoni)",
+          "New York (Doble mozzarella, doble pepperoni)",
+          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
+          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
+          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
+          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
+          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
+          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
+        ]
+      }
+    ],
+    "sku": "685"
+  },
+  {
     "id": "2f6c0ce5-5606-458f-84b7-d0e10d9e161a",
     "slug": "2-pizzas-medianas-bebida-1lt",
     "nombre": "2 Pizzas Medianas + Bebida 1lt",
-    "precio": 15.99,
+    "precio": "15.99",
     "precio_promo": "",
     "categorias": [
       "pizzas-medianas"
@@ -454,11 +209,10 @@
     "descripcion": "2 Pizzas de ESPECIALIDAD 30cm — 8 porciones c/u 🍕 + Gaseosa 1lt. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u. Envío: aplica hasta 5km.",
     "stock": null,
     "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/2-medianas-bebida.webp"
+      "/producto/2-pizzas-medianas-bebida-1lt/images/2-pizzas-medianas-bebida-1lt-1.webp"
     ],
     "variantes": [
       {
-        "name": "Sabor Pizza 1",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -476,7 +230,6 @@
         ]
       },
       {
-        "name": "Sabor Pizza 2",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -494,7 +247,6 @@
         ]
       },
       {
-        "name": "Bebida 1lt",
         "options": [
           "Pepsi 1 litro",
           "Manzana 1 litro",
@@ -510,10 +262,79 @@
     "sku": "773"
   },
   {
+    "id": "dd3be46a-c3a5-4e21-82f0-551225204bb8",
+    "slug": "32-pizzas-familiares",
+    "nombre": "⭐ 3×2 Pizzas Familiares",
+    "precio": "26.99",
+    "precio_promo": "",
+    "categorias": [
+      "pizzas-familiares"
+    ],
+    "descripcion": "3 Pizzas de ESPECIALIDAD 35cm — 12 porciones c/u 🍕. Envío Gratis* hasta 5km. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u.",
+    "stock": null,
+    "imagenes": [
+      "/producto/32-pizzas-familiares/images/32-pizzas-familiares-1.webp"
+    ],
+    "variantes": [
+      {
+        "options": [
+          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
+          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
+          "Argentina (Mozzarella, doble jamón)",
+          "Francesa (Mozzarella, jamón, champiñones)",
+          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
+          "Italiana (Mozzarella, jamón y pepperoni)",
+          "New York (Doble mozzarella, doble pepperoni)",
+          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
+          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
+          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
+          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
+          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
+          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
+        ]
+      },
+      {
+        "options": [
+          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
+          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
+          "Argentina (Mozzarella, doble jamón)",
+          "Francesa (Mozzarella, jamón, champiñones)",
+          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
+          "Italiana (Mozzarella, jamón y pepperoni)",
+          "New York (Doble mozzarella, doble pepperoni)",
+          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
+          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
+          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
+          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
+          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
+          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
+        ]
+      },
+      {
+        "options": [
+          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
+          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
+          "Argentina (Mozzarella, doble jamón)",
+          "Francesa (Mozzarella, jamón, champiñones)",
+          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
+          "Italiana (Mozzarella, jamón y pepperoni)",
+          "New York (Doble mozzarella, doble pepperoni)",
+          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
+          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
+          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
+          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
+          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
+          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
+        ]
+      }
+    ],
+    "sku": "690"
+  },
+  {
     "id": "e39745d4-f6c8-44a9-8f6d-67d4e71353c4",
-    "slug": "3x2-pizzas-medianas",
+    "slug": "32-pizzas-medianas",
     "nombre": "⭐ 3×2 Pizzas Medianas",
-    "precio": 19.99,
+    "precio": "19.99",
     "precio_promo": "",
     "categorias": [
       "pizzas-medianas"
@@ -521,11 +342,10 @@
     "descripcion": "3 Pizzas de ESPECIALIDAD 30cm — 8 porciones c/u 🍕. Envío Gratis* hasta 5km. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u.",
     "stock": null,
     "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/3-pizza-medianas.webp"
+      "/producto/32-pizzas-medianas/images/32-pizzas-medianas-1.webp"
     ],
     "variantes": [
       {
-        "name": "Sabor Pizza 1",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -543,7 +363,6 @@
         ]
       },
       {
-        "name": "Sabor Pizza 2",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -561,7 +380,6 @@
         ]
       },
       {
-        "name": "Sabor Pizza 3",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -582,10 +400,160 @@
     "sku": "764"
   },
   {
+    "id": "dd88225a-2212-423f-b6ba-cd2cff277267",
+    "slug": "bebidas-de-1-litro",
+    "nombre": "Bebidas de 1 Litro",
+    "precio": "2.0",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Gaseosa 1 litro a elección. Pepsi, Manzana y Seven Up: $2.00. CocaCola, Sprite, Fanta, Fuzetea y CocaCola Zero: $2.50.",
+    "stock": null,
+    "imagenes": [
+      "/producto/bebidas-de-1-litro/images/bebidas-de-1-litro-1.webp"
+    ],
+    "variantes": [
+      {
+        "options": [
+          {
+            "label": "Pepsi 1 litro ($2.00)",
+            "price": 2
+          },
+          {
+            "label": "Manzana 1 litro ($2.00)",
+            "price": 2
+          },
+          {
+            "label": "Seven Up 1 litro ($2.00)",
+            "price": 2
+          },
+          {
+            "label": "CocaCola 1 litro ($2.50)",
+            "price": 2.5
+          },
+          {
+            "label": "CocaCola Zero 1 litro ($2.50)",
+            "price": 2.5
+          },
+          {
+            "label": "Sprite 1 litro ($2.50)",
+            "price": 2.5
+          },
+          {
+            "label": "Fanta 1 litro ($2.50)",
+            "price": 2.5
+          },
+          {
+            "label": "Fuzetea 1 litro ($2.50)",
+            "price": 2.5
+          }
+        ]
+      }
+    ],
+    "sku": "747"
+  },
+  {
+    "id": "2f7a6a65-cacf-4429-b6ad-aca09d702405",
+    "slug": "combo-lasana",
+    "nombre": "Combo Lasaña",
+    "precio": "7.99",
+    "precio_promo": "",
+    "categorias": [
+      "combos-individuales"
+    ],
+    "descripcion": "Lasaña a elección + 2 panes de ajo + Ensalada + Gaseosa. Lasaña Planet tiene cargo extra de $1; Griega +$0.25; Coca-Cola +$0.25.",
+    "stock": null,
+    "imagenes": [
+      "/producto/combo-lasana/images/combo-lasana-1.webp"
+    ],
+    "variantes": [
+      {
+        "options": [
+          "Lasaña Planet (carne premium, extra queso, tocino y champiñones) +$1",
+          "Lasaña de Carne (carne premium)",
+          "Lasaña de Pollo (pechuga)"
+        ]
+      },
+      {
+        "options": [
+          "Italiana (Lechuga, tomate, jamón, queso y salsa mayo planet)",
+          "Griega (Lechuga, tomate, champiñones, aceitunas, jamón, pasas) +$0.25"
+        ]
+      },
+      {
+        "options": [
+          "Coca-Cola 300ml +$0.25",
+          "Fanta 250ml",
+          "Sprite 250ml",
+          "Fuze Tea 300ml",
+          "Agua con gas",
+          "Agua sin gas"
+        ]
+      }
+    ],
+    "sku": "749"
+  },
+  {
+    "id": "cdcd9437-3e77-42a5-ba5e-140205de894d",
+    "slug": "combo-lunch",
+    "nombre": "Combo Lunch",
+    "precio": "4.99",
+    "precio_promo": "",
+    "categorias": [
+      "combos-individuales"
+    ],
+    "descripcion": "Pizza personal + Ensalada + Bebida. Griega y Coca-Cola 300ml tienen cargo de $0.25.",
+    "stock": null,
+    "imagenes": [
+      "/producto/combo-lunch/images/combo-lunch-1.webp"
+    ],
+    "variantes": [
+      {
+        "options": [
+          "Jamón Personal",
+          "Pepperoni",
+          "Champiñones",
+          "Solo Queso",
+          "SuperPlanet (Mozzarella, Jamón, Salami, Pepperoni, Champiñones y Pimientos)",
+          "Italiana (Mozzarella, Jamón, Pepperoni)",
+          "Americana (Mozzarella, Jamón, Salami, Pepperoni y Tocino)",
+          "Argentina (Mozzarella, Doble Jamón) +$0.50",
+          "New York (Doble Mozzarella, Doble Pepperoni)",
+          "Hawaiana (Mozzarella, Jamón, Tocino, Durazno y Piña)",
+          "Texana (Mozzarella, Pollo, Champiñones, Pimientos y Salsa BBQ)",
+          "Francesa (Mozzarella, Jamón y Champiñones)",
+          "Andina (Mozzarella, Tocino, Choclo Dulce y Cebolla)",
+          "Portuguesa (Mozzarella, Tomates, Aceitunas Verdes, Champiñones, Cebolla y Pimiento)",
+          "Mexicana (Mozzarella, Chorizo, Carne, Pimiento, Cebolla y Jalapeños)",
+          "Dubai (Mozzarella, Pepperoni, Tocino, Carne, Jamón, Aceitunas, Cebolla y Champiñones) +$0.50",
+          "Española (Mozzarella, Chorizo, Pepperoni, Pimientos rojos, Pimientos verdes y Cebolla)"
+        ]
+      },
+      {
+        "options": [
+          "Italiana (Lechuga, tomate, jamón, queso y salsa mayo planet)",
+          "Griega (Lechuga, tomate, champiñones, aceitunas, jamón, pasas) +$0.25"
+        ]
+      },
+      {
+        "options": [
+          "Coca-Cola 300ml +$0.25",
+          "Fanta 250ml",
+          "Sprite 250ml",
+          "Fuze Tea 300ml",
+          "Agua con gas",
+          "Agua sin gas"
+        ]
+      }
+    ],
+    "sku": "759"
+  },
+  {
     "id": "69cc58c6-728a-48c6-aa76-d864697516db",
     "slug": "combo-mediano",
     "nombre": "Combo Mediano",
-    "precio": 13.99,
+    "precio": "13.99",
     "precio_promo": "",
     "categorias": [
       "pizzas-medianas"
@@ -593,11 +561,10 @@
     "descripcion": "1 Pizza Mediana + 4 panes de ajo + Ensalada + Gaseosa 1lt. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u. Envío: aplica hasta 5km.",
     "stock": null,
     "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2026/01/ChatGPT-Image-27-may-2026-07_22_38-p.m.webp"
+      "/producto/combo-mediano/images/combo-mediano-1.webp"
     ],
     "variantes": [
       {
-        "name": "Sabor Pizza",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -615,7 +582,6 @@
         ]
       },
       {
-        "name": "Bebida 1lt",
         "options": [
           "Pepsi 1 litro",
           "Manzana 1 litro",
@@ -631,10 +597,196 @@
     "sku": "1208"
   },
   {
+    "id": "008812e9-0045-4385-9d68-4b7ecf254b92",
+    "slug": "ensalada-andromeda",
+    "nombre": "Ensalada Andrómeda",
+    "precio": "5.0",
+    "precio_promo": "",
+    "categorias": [
+      "ensaladas"
+    ],
+    "descripcion": "Lechuga, tomate, pollo napolitano y mozzarella.",
+    "stock": null,
+    "imagenes": [
+      "/producto/ensalada-andromeda/images/ensalada-andromeda-1.webp"
+    ],
+    "variantes": [],
+    "sku": "746"
+  },
+  {
+    "id": "3b432057-89f3-486e-8ce7-32b5e1abcde4",
+    "slug": "ensalada-griega",
+    "nombre": "Ensalada Griega",
+    "precio": "4.0",
+    "precio_promo": "",
+    "categorias": [
+      "ensaladas"
+    ],
+    "descripcion": "Lechuga, tomate, jamón, champiñones, aceitunas, pasas y nuestra deliciosa Mayo Planet.",
+    "stock": null,
+    "imagenes": [
+      "/producto/ensalada-griega/images/ensalada-griega-1.webp"
+    ],
+    "variantes": [],
+    "sku": "735"
+  },
+  {
+    "id": "7d4918b5-5983-48c9-bea0-7f0c70c58cfc",
+    "slug": "ensalada-italiana",
+    "nombre": "Ensalada Italiana",
+    "precio": "3.0",
+    "precio_promo": "",
+    "categorias": [
+      "ensaladas"
+    ],
+    "descripcion": "Lechuga, tomate, jamón, mozzarella y nuestra deliciosa salsa Mayo Planet.",
+    "stock": null,
+    "imagenes": [
+      "/producto/ensalada-italiana/images/ensalada-italiana-1.webp"
+    ],
+    "variantes": [],
+    "sku": "731"
+  },
+  {
+    "id": "2089fb64-8eba-414b-a7ca-5bb763b414e6",
+    "slug": "festin-familiar",
+    "nombre": "Festín Familiar",
+    "precio": "23.99",
+    "precio_promo": "",
+    "categorias": [
+      "pizzas-familiares"
+    ],
+    "descripcion": "2 Pizzas Familiares + 2 ensaladas + 12 panes de ajo + 2 bebidas de 1lt. Envío Gratis* hasta 5km. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u.",
+    "stock": null,
+    "imagenes": [
+      "/producto/festin-familiar/images/festin-familiar-1.webp"
+    ],
+    "variantes": [
+      {
+        "options": [
+          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
+          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
+          "Argentina (Mozzarella, doble jamón)",
+          "Francesa (Mozzarella, jamón, champiñones)",
+          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
+          "Italiana (Mozzarella, jamón y pepperoni)",
+          "New York (Doble mozzarella, doble pepperoni)",
+          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
+          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
+          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
+          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
+          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
+          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
+        ]
+      },
+      {
+        "options": [
+          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
+          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
+          "Argentina (Mozzarella, doble jamón)",
+          "Francesa (Mozzarella, jamón, champiñones)",
+          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
+          "Italiana (Mozzarella, jamón y pepperoni)",
+          "New York (Doble mozzarella, doble pepperoni)",
+          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
+          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
+          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
+          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
+          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
+          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
+        ]
+      },
+      {
+        "options": [
+          "Pepsi 1 litro",
+          "Manzana 1 litro",
+          "Seven Up 1 litro",
+          "CocaCola 1 litro",
+          "CocaCola Zero 1 litro",
+          "Sprite 1 litro",
+          "Fanta 1 litro",
+          "Fuzetea 1 litro"
+        ]
+      },
+      {
+        "options": [
+          "Pepsi 1 litro",
+          "Manzana 1 litro",
+          "Seven Up 1 litro",
+          "CocaCola 1 litro",
+          "CocaCola Zero 1 litro",
+          "Sprite 1 litro",
+          "Fanta 1 litro",
+          "Fuzetea 1 litro"
+        ]
+      }
+    ],
+    "sku": "1207"
+  },
+  {
+    "id": "80e51484-38dc-4afb-9d90-d727c52a6840",
+    "slug": "lasanas",
+    "nombre": "Lasañas",
+    "precio": "5.99",
+    "precio_promo": "",
+    "categorias": [
+      "especialidades"
+    ],
+    "descripcion": "Jugosas lasañas artesanales. Lasaña Planet tiene cargo adicional de $1.",
+    "stock": null,
+    "imagenes": [
+      "/producto/lasanas/images/lasanas-1.webp"
+    ],
+    "variantes": [
+      {
+        "options": [
+          "Lasaña Planet (carne premium, extra queso, tocino y champiñones) +$1",
+          "Lasaña de Carne (carne premium)",
+          "Lasaña de Pollo (pechuga)"
+        ]
+      }
+    ],
+    "sku": "760"
+  },
+  {
+    "id": "a5ddbc2d-7eb4-4b77-bd21-810fda1b031a",
+    "slug": "pan-de-ajo-x6",
+    "nombre": "Pan de Ajo x6",
+    "precio": "2.0",
+    "precio_promo": "",
+    "categorias": [
+      "porciones"
+    ],
+    "descripcion": "6 rodajas de pan de ajo.",
+    "stock": null,
+    "imagenes": [
+      "/producto/pan-de-ajo-x6/images/pan-de-ajo-x6-1.webp"
+    ],
+    "variantes": [],
+    "sku": "729"
+  },
+  {
+    "id": "0194410c-ab98-4787-b0c1-7391d57d26dd",
+    "slug": "papas-fritas",
+    "nombre": "Papas Fritas",
+    "precio": "2.0",
+    "precio_promo": "",
+    "categorias": [
+      "porciones"
+    ],
+    "descripcion": "Porción de papas fritas crocantes.",
+    "stock": null,
+    "imagenes": [
+      "/producto/papas-fritas/images/papas-fritas-1.webp"
+    ],
+    "variantes": [],
+    "sku": "710"
+  },
+  {
     "id": "4fca451c-b602-415d-94a0-cd3afbc4941c",
     "slug": "pizza-20cm-personal",
     "nombre": "Pizza 20cm Personal",
-    "precio": 3.99,
+    "precio": "3.99",
     "precio_promo": "",
     "categorias": [
       "especialidades"
@@ -642,11 +794,10 @@
     "descripcion": "Pizza 20cm — 4 porciones 🍕. Argentina y Dubai tienen cargo extra.",
     "stock": null,
     "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/12.jpg"
+      "/producto/pizza-20cm-personal/images/pizza-20cm-personal-1.webp"
     ],
     "variantes": [
       {
-        "name": "Sabor Pizza",
         "options": [
           "Jamón Personal",
           "Pepperoni",
@@ -671,271 +822,85 @@
     "sku": "763"
   },
   {
-    "id": "80e51484-38dc-4afb-9d90-d727c52a6840",
-    "slug": "lasanas",
-    "nombre": "Lasañas",
-    "precio": 5.99,
+    "id": "9f9d99d1-2f48-4ccc-a86e-34c6698f353a",
+    "slug": "pizza-familiar",
+    "nombre": "Pizza Familiar",
+    "precio": "9.0",
     "precio_promo": "",
     "categorias": [
-      "especialidades"
+      "pizzas-familiares"
     ],
-    "descripcion": "Jugosas lasañas artesanales. Lasaña Planet tiene cargo adicional de $1.",
+    "descripcion": "Pizza de ESPECIALIDAD 35cm — 12 porciones 🍕",
     "stock": null,
     "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/11.jpg"
+      "/producto/pizza-familiar/images/pizza-familiar-1.webp"
     ],
     "variantes": [
       {
-        "name": "Tipo de Lasaña",
         "options": [
-          "Lasaña Planet (carne premium, extra queso, tocino y champiñones) +$1",
-          "Lasaña de Carne (carne premium)",
-          "Lasaña de Pollo (pechuga)"
+          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
+          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
+          "Argentina (Mozzarella, doble jamón)",
+          "Francesa (Mozzarella, jamón, champiñones)",
+          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
+          "Italiana (Mozzarella, jamón y pepperoni)",
+          "New York (Doble mozzarella, doble pepperoni)",
+          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
+          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
+          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
+          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
+          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
+          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
         ]
       }
     ],
-    "sku": "760"
+    "sku": "1550"
   },
   {
-    "id": "cdcd9437-3e77-42a5-ba5e-140205de894d",
-    "slug": "combo-lunch",
-    "nombre": "Combo Lunch",
-    "precio": 4.99,
+    "id": "64797cdb-aad8-48a9-af3c-5c71714e8259",
+    "slug": "pizza-familiar-bebida-1lt",
+    "nombre": "Pizza Familiar + Bebida 1lt",
+    "precio": "9.99",
     "precio_promo": "",
     "categorias": [
-      "combos-individuales"
+      "pizzas-familiares"
     ],
-    "descripcion": "Pizza personal + Ensalada + Bebida. Griega y Coca-Cola 300ml tienen cargo de $0.25.",
+    "descripcion": "Pizza de ESPECIALIDAD 35cm — 12 porciones 🍕 + Bebida 1lt. Sabores premium (Hawaiana, Texana, Dubai, Española, Mexicana) tienen cargo adicional de $1–$1.50 c/u. Envío: aplica hasta 5km.",
     "stock": null,
     "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/9.jpg"
+      "/producto/pizza-familiar-bebida-1lt/images/pizza-familiar-bebida-1lt-1.webp"
     ],
     "variantes": [
       {
-        "name": "Sabor Pizza",
         "options": [
-          "Jamón Personal",
-          "Pepperoni",
-          "Champiñones",
-          "Solo Queso",
-          "SuperPlanet (Mozzarella, Jamón, Salami, Pepperoni, Champiñones y Pimientos)",
-          "Italiana (Mozzarella, Jamón, Pepperoni)",
-          "Americana (Mozzarella, Jamón, Salami, Pepperoni y Tocino)",
-          "Argentina (Mozzarella, Doble Jamón) +$0.50",
-          "New York (Doble Mozzarella, Doble Pepperoni)",
-          "Hawaiana (Mozzarella, Jamón, Tocino, Durazno y Piña)",
-          "Texana (Mozzarella, Pollo, Champiñones, Pimientos y Salsa BBQ)",
-          "Francesa (Mozzarella, Jamón y Champiñones)",
-          "Andina (Mozzarella, Tocino, Choclo Dulce y Cebolla)",
-          "Portuguesa (Mozzarella, Tomates, Aceitunas Verdes, Champiñones, Cebolla y Pimiento)",
-          "Mexicana (Mozzarella, Chorizo, Carne, Pimiento, Cebolla y Jalapeños)",
-          "Dubai (Mozzarella, Pepperoni, Tocino, Carne, Jamón, Aceitunas, Cebolla y Champiñones) +$0.50",
-          "Española (Mozzarella, Chorizo, Pepperoni, Pimientos rojos, Pimientos verdes y Cebolla)"
+          "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
+          "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
+          "Argentina (Mozzarella, doble jamón)",
+          "Francesa (Mozzarella, jamón, champiñones)",
+          "Hawaiana (Mozzarella, jamón, tocino, durazno y piña) +$1",
+          "Italiana (Mozzarella, jamón y pepperoni)",
+          "New York (Doble mozzarella, doble pepperoni)",
+          "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
+          "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
+          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
+          "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
+          "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
+          "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
         ]
       },
       {
-        "name": "Ensalada",
         "options": [
-          "Italiana (Lechuga, tomate, jamón, queso y salsa mayo planet)",
-          "Griega (Lechuga, tomate, champiñones, aceitunas, jamón, pasas) +$0.25"
-        ]
-      },
-      {
-        "name": "Bebida",
-        "options": [
-          "Coca-Cola 300ml +$0.25",
-          "Fanta 250ml",
-          "Sprite 250ml",
-          "Fuze Tea 300ml",
-          "Agua con gas",
-          "Agua sin gas"
+          "Pepsi 1 litro",
+          "Manzana 1 litro",
+          "Seven Up 1 litro",
+          "CocaCola 1 litro",
+          "CocaCola Zero 1 litro",
+          "Sprite 1 litro",
+          "Fanta 1 litro",
+          "Fuzetea 1 litro"
         ]
       }
     ],
-    "sku": "759"
-  },
-  {
-    "id": "2f7a6a65-cacf-4429-b6ad-aca09d702405",
-    "slug": "combo-lasana",
-    "nombre": "Combo Lasaña",
-    "precio": 7.99,
-    "precio_promo": "",
-    "categorias": [
-      "combos-individuales"
-    ],
-    "descripcion": "Lasaña a elección + 2 panes de ajo + Ensalada + Gaseosa. Lasaña Planet tiene cargo extra de $1; Griega +$0.25; Coca-Cola +$0.25.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/10.jpg"
-    ],
-    "variantes": [
-      {
-        "name": "Tipo de Lasaña",
-        "options": [
-          "Lasaña Planet (carne premium, extra queso, tocino y champiñones) +$1",
-          "Lasaña de Carne (carne premium)",
-          "Lasaña de Pollo (pechuga)"
-        ]
-      },
-      {
-        "name": "Ensalada",
-        "options": [
-          "Italiana (Lechuga, tomate, jamón, queso y salsa mayo planet)",
-          "Griega (Lechuga, tomate, champiñones, aceitunas, jamón, pasas) +$0.25"
-        ]
-      },
-      {
-        "name": "Bebida",
-        "options": [
-          "Coca-Cola 300ml +$0.25",
-          "Fanta 250ml",
-          "Sprite 250ml",
-          "Fuze Tea 300ml",
-          "Agua con gas",
-          "Agua sin gas"
-        ]
-      }
-    ],
-    "sku": "749"
-  },
-  {
-    "id": "7d4918b5-5983-48c9-bea0-7f0c70c58cfc",
-    "slug": "ensalada-italiana",
-    "nombre": "Ensalada Italiana",
-    "precio": 3.0,
-    "precio_promo": "",
-    "categorias": [
-      "ensaladas"
-    ],
-    "descripcion": "Lechuga, tomate, jamón, mozzarella y nuestra deliciosa salsa Mayo Planet.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/CATALOGO-PLANET-APPS-936-x-693-px-60-x-40-cm-2.jpg"
-    ],
-    "variantes": [],
-    "sku": "731"
-  },
-  {
-    "id": "3b432057-89f3-486e-8ce7-32b5e1abcde4",
-    "slug": "ensalada-griega",
-    "nombre": "Ensalada Griega",
-    "precio": 4.0,
-    "precio_promo": "",
-    "categorias": [
-      "ensaladas"
-    ],
-    "descripcion": "Lechuga, tomate, jamón, champiñones, aceitunas, pasas y nuestra deliciosa Mayo Planet.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/CATALOGO-PLANET-APPS-936-x-693-px-60-x-40-cm.jpg"
-    ],
-    "variantes": [],
-    "sku": "735"
-  },
-  {
-    "id": "008812e9-0045-4385-9d68-4b7ecf254b92",
-    "slug": "ensalada-andromeda",
-    "nombre": "Ensalada Andrómeda",
-    "precio": 5.0,
-    "precio_promo": "",
-    "categorias": [
-      "ensaladas"
-    ],
-    "descripcion": "Lechuga, tomate, pollo napolitano y mozzarella.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/CATALOGO-PLANET-APPS-936-x-693-px-60-x-40-cm-1.jpg"
-    ],
-    "variantes": [],
-    "sku": "746"
-  },
-  {
-    "id": "0194410c-ab98-4787-b0c1-7391d57d26dd",
-    "slug": "papas-fritas",
-    "nombre": "Papas Fritas",
-    "precio": 2.0,
-    "precio_promo": "",
-    "categorias": [
-      "porciones"
-    ],
-    "descripcion": "Porción de papas fritas crocantes.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/Papas-fritas-.webp"
-    ],
-    "variantes": [],
-    "sku": "710"
-  },
-  {
-    "id": "a5ddbc2d-7eb4-4b77-bd21-810fda1b031a",
-    "slug": "pan-de-ajo-6-unidades",
-    "nombre": "Pan de Ajo x6",
-    "precio": 2.0,
-    "precio_promo": "",
-    "categorias": [
-      "porciones"
-    ],
-    "descripcion": "6 rodajas de pan de ajo.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/Pan-ajo-6-unidads.webp"
-    ],
-    "variantes": [],
-    "sku": "729"
-  },
-  {
-    "id": "dd88225a-2212-423f-b6ba-cd2cff277267",
-    "slug": "bebidas-de-1-litro",
-    "nombre": "Bebidas de 1 Litro",
-    "precio": 2.0,
-    "precio_promo": "",
-    "categorias": [
-      "bebidas"
-    ],
-    "descripcion": "Gaseosa 1 litro a elección. Pepsi, Manzana y Seven Up: $2.00. CocaCola, Sprite, Fanta, Fuzetea y CocaCola Zero: $2.50.",
-    "stock": null,
-    "imagenes": [
-      "https://qr.food724.com/pizzaplanet/wp-content/uploads/sites/24/2025/10/Gaseosas-litro.webp"
-    ],
-    "variantes": [
-      {
-        "name": "Sabor",
-        "options": [
-          {
-            "label": "Pepsi 1 litro",
-            "price": 2.0
-          },
-          {
-            "label": "Manzana 1 litro",
-            "price": 2.0
-          },
-          {
-            "label": "Seven Up 1 litro",
-            "price": 2.0
-          },
-          {
-            "label": "CocaCola 1 litro",
-            "price": 2.5
-          },
-          {
-            "label": "CocaCola Zero 1 litro",
-            "price": 2.5
-          },
-          {
-            "label": "Sprite 1 litro",
-            "price": 2.5
-          },
-          {
-            "label": "Fanta 1 litro",
-            "price": 2.5
-          },
-          {
-            "label": "Fuzetea 1 litro",
-            "price": 2.5
-          }
-        ]
-      }
-    ],
-    "sku": "747"
+    "sku": "680"
   }
 ]

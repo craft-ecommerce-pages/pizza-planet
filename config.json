@@ -1,0 +1,54 @@
+{
+  "store_name": "Pizza Planet",
+  "site_title": "Pizza Planet – La mejor pizza de la galaxia",
+  "hero_title": "La mejor pizza de <span class=\"hl\">la galaxia</span> 🚀",
+  "badge_category": "especialidades",
+  "categories": {
+    "pizzas-familiares": "🍕 Pizzas Familiares",
+    "pizzas-medianas": "🍕 Pizzas Medianas",
+    "especialidades": "⭐ Especialidades",
+    "combos-individuales": "🍱 Combos Individuales",
+    "ensaladas": "🥗 Ensaladas",
+    "porciones": "🍟 Porciones",
+    "bebidas": "🥤 Bebidas"
+  },
+  "currency": "$",
+  "theme_primary": "#C0182B",
+  "theme_accent": "#F5C000",
+  "whatsapp_number": "593969064106",
+  "whatsapp_message": "¡Hola Pizza Planet! Quiero hacer un pedido:",
+  "min_units": null,
+  "min_days_advance": null,
+  "catalog_notify_url": "",
+  "catalog_notify_token": "",
+  "location": {
+    "sedes": [
+      {
+        "nombre": "Sede Católica",
+        "direccion": "Gerónimo Carrión E10-24 y 12 de Octubre",
+        "telefono": "0995277651"
+      },
+      {
+        "nombre": "Sede Valle de los Chillos",
+        "direccion": "Quito Bowling Plaza, Av. Gral. Rumiñahui y Ambato",
+        "telefono": "+593998014215"
+      },
+      {
+        "nombre": "Sede Real Audiencia",
+        "direccion": "Av. Real Audiencia y Av. del Maestro, esquina",
+        "telefono": "+593999073038"
+      },
+      {
+        "nombre": "Sede UTE – Rumipamba",
+        "direccion": "Rumipamba y Bourgeois, esquina",
+        "telefono": "+593987657085"
+      },
+      {
+        "nombre": "Sede La Michelena",
+        "direccion": "Av. Michelena Oe5-233",
+        "telefono": "0991626250"
+      }
+    ],
+    "telefono_principal": "+593969064106"
+  }
+}

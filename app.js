@@ -242,63 +242,65 @@
     function renderLocation(){
       document.body.classList.add('location-view');
       if(observer) observer.disconnect();
+      const sedes=(config.location&&config.location.sedes)||[];
+      const wa=config.location&&config.location.telefono_principal||config.whatsapp_number||'';
+      const waNum=wa.replace(/\D/g,'');
+      const social=config.social||{};
+
+      const sedeCard=(s,extra='')=>`
+        <div class="sede-card${extra}">
+          <div class="sede-name">${s.nombre}</div>
+          <div class="sede-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1116 0z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <span>${s.direccion}</span>
+          </div>
+          ${s.telefono?`<div class="sede-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
+            <a href="tel:${s.telefono}">${s.telefono}</a>
+          </div>`:''}
+          ${waNum?`<div class="sede-row">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <a href="https://wa.me/${waNum}" target="_blank">+${waNum}</a>
+          </div>`:''}
+        </div>`;
+
+      // Pair into rows; last one centered if odd
+      const pairs=[];
+      for(let i=0;i<sedes.length;i+=2) pairs.push(sedes.slice(i,i+2));
+
+      const sedesHTML=pairs.map(pair=>{
+        if(pair.length===2) return `<div class="sede-card" style="display:contents">${sedeCard(pair[0])}${sedeCard(pair[1])}</div>`;
+        return sedeCard(pair[0],' full');
+      }).join('');
+
+      // Actually render all as flat grid items
+      const allCards=sedes.map((s,i)=>i===sedes.length-1&&sedes.length%2!==0?sedeCard(s,' full'):sedeCard(s)).join('');
+
+      const socialHTML=(social.facebook||social.instagram||social.tiktok)?`
+        <div class="social-section">
+          <div class="social-title">Síguenos</div>
+          <div class="social-strip">
+            ${social.facebook?`<a class="social-btn" href="${social.facebook}" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>`:''}
+            ${social.instagram?`<a class="social-btn" href="${social.instagram}" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>`:''}
+            ${social.tiktok?`<a class="social-btn" href="${social.tiktok}" target="_blank" rel="noopener" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.27 8.27 0 004.84 1.55V6.8a4.85 4.85 0 01-1.07-.11z"/></svg>
+            </a>`:''}
+          </div>
+        </div>`:'';
+
       $catalog.innerHTML=`
         <section class="location-view-wrap">
           <div class="location-heading">
-            <h2>📍 Ubicación y reservas</h2>
-            <p>Visítanos o reserva tu mesa en el ambiente que prefieras.</p>
+            <h2>📍 Nuestras Sedes</h2>
+            <p>Encuéntranos en cualquiera de nuestras sucursales en Quito.</p>
           </div>
-          <div class="location-layout">
-            <div class="location-card">
-              <iframe class="map-frame" title="Ubicación de Deli Xpress"
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3978.183965242556!2d-79.94250092502267!3d-4.376609695597491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNMKwMjInMzUuOCJTIDc5wrA1NicyMy43Ilc!5e0!3m2!1ses!2sec!4v1785797043873!5m2!1ses!2sec"
-                allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-            </div>
-            <div class="reservation-card">
-              <h3>Reserva tu mesa</h3>
-              <p class="reservation-intro">Completa tus datos y envíanos la solicitud por WhatsApp.</p>
-              <form class="reservation-form" id="reservationForm">
-                <div class="form-field">
-                  <label for="reservationName">Nombre</label>
-                  <input id="reservationName" name="name" type="text" autocomplete="given-name" required placeholder="Tu nombre"/>
-                </div>
-                <div class="form-field">
-                  <label for="reservationLastName">Apellido</label>
-                  <input id="reservationLastName" name="lastName" type="text" autocomplete="family-name" required placeholder="Tu apellido"/>
-                </div>
-                <div class="form-field">
-                  <label for="reservationPhone">Número de teléfono</label>
-                  <input id="reservationPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required placeholder="Ej. 099 123 4567"/>
-                </div>
-                <div class="form-field">
-                  <label for="reservationArea">¿En qué parte del restaurante prefieres estar?</label>
-                  <select id="reservationArea" name="area" required>
-                    <option value="" selected disabled>Selecciona una opción</option>
-                    <option value="Ventanas">Ventanas</option>
-                    <option value="Pérgola">Pérgola</option>
-                    <option value="Centro">Centro</option>
-                    <option value="Chimenea">Chimenea</option>
-                  </select>
-                </div>
-                <button class="btn-reservation" type="submit">
-                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                  Reservar por WhatsApp
-                </button>
-              </form>
-            </div>
-          </div>
+          <div class="sedes-grid">${allCards}</div>
+          ${socialHTML}
         </section>`;
-      document.getElementById('reservationForm').addEventListener('submit',sendReservation);
-    }
-
-    function sendReservation(e){
-      e.preventDefault();
-      const num=(config.whatsapp_number||'').replace(/\D/g,'');
-      if(!num){showToast('WhatsApp no configurado');return;}
-      const form=new FormData(e.currentTarget);
-      const store=config.store_name||'el restaurante';
-      const msg=`¡Hola! Quiero solicitar una reserva en ${store}.\n\n*DATOS DE LA RESERVA*\n━━━━━━━━━━━━━━━━━\n*Nombre:* ${form.get('name')} ${form.get('lastName')}\n*Teléfono:* ${form.get('phone')}\n*Ubicación preferida:* ${form.get('area')}\n━━━━━━━━━━━━━━━━━\n\nQuedo pendiente de la confirmación. ¡Gracias!`;
-      window.open(`https://wa.me/${num}?text=${encodeURIComponent(msg)}`,'_blank');
     }
 
     function updateCardButtons(){
@@ -362,17 +364,26 @@
               </div></div>`;
           }).join('')+`</div>`;
       } else if(hasVariants){
-        variantHTML='<div class="customize-label">Personaliza</div>'+p.variantes.map(g=>`
-          <div class="variant-group">
+        // opt.label already has price embedded (from processVariants price_select) — don't add it again
+        const optLabel=opt=>{const d=getOptionDisplay(opt),pr=getOptionPrice(opt);return(pr!==null&&typeof opt==='string')?`${d} (${formatPrice(pr)})`:d;};
+        variantHTML='<div class="customize-label">Personaliza</div>'+p.variantes.map(g=>{
+          const cur=modalVariants[g.name]||'';
+          if(g.options.length>4){
+            return `<div class="variant-group">
+              <div class="variant-glabel">${g.name||'Opciones'}</div>
+              <select class="variant-select" data-group="${g.name}">
+                <option value="">— Elige una opción —</option>
+                ${g.options.map(opt=>{const k=getOptionKey(opt);return`<option value="${k}"${cur===k?' selected':''}>${optLabel(opt)}</option>`;}).join('')}
+              </select>
+            </div>`;
+          }
+          return `<div class="variant-group">
             <div class="variant-glabel">${g.name||'Opciones'}</div>
             <div class="variant-options">
-              ${g.options.map(opt=>{
-                const oKey=getOptionKey(opt),oDisplay=getOptionDisplay(opt),oPrice=getOptionPrice(opt);
-                const label=oPrice!==null?`${oDisplay} (${formatPrice(oPrice)})`:oDisplay;
-                return `<button class="variant-option${modalVariants[g.name]===oKey?' selected':''}" data-group="${g.name}" data-opt="${oKey}">${label}</button>`;
-              }).join('')}
+              ${g.options.map(opt=>{const oKey=getOptionKey(opt);return`<button class="variant-option${cur===oKey?' selected':''}" data-group="${g.name}" data-opt="${oKey}">${optLabel(opt)}</button>`;}).join('')}
             </div>
-          </div>`).join('');
+          </div>`;
+        }).join('');
       }
 
       $modalDetail.innerHTML=`
@@ -421,6 +432,13 @@
           const {group,opt}=btn.dataset;
           if(modalVariants[group]===opt) delete modalVariants[group];
           else modalVariants[group]=opt;
+          renderModalDetail();
+        });
+      });
+      $modalDetail.querySelectorAll('.variant-select').forEach(sel=>{
+        sel.addEventListener('change',()=>{
+          const g=sel.dataset.group;
+          if(sel.value) modalVariants[g]=sel.value; else delete modalVariants[g];
           renderModalDetail();
         });
       });
@@ -622,9 +640,12 @@
 
       const store=config.store_name||'Catálogo';
       document.getElementById('brandName').textContent=store;
-      document.getElementById('footerLink').textContent=store;
-      document.getElementById('footerYear').textContent=new Date().getFullYear();
       document.title=config.site_title||store;
+      document.getElementById('footerText').innerHTML=
+        `© ${new Date().getFullYear()} <strong>${store}</strong>`+
+        `<span class="footer-sep">|</span><a href="#" id="lnkTerms">Términos y condiciones</a>`+
+        `<span class="footer-sep">|</span><a href="#" id="lnkPrivacy">Política de privacidad</a>`+
+        `<br><span class="footer-credit">Powered by <a href="https://craftmarketing.agency" target="_blank" rel="noopener">craftmarketing.agency</a></span>`;
       if(config.hero_title) document.getElementById('heroTitle').innerHTML=config.hero_title;
 
       const mu=config.min_units,md=config.min_days_advance;
@@ -647,6 +668,44 @@
 
       const preOpen=new URLSearchParams(location.search).get('producto');
       if(preOpen){const p=products.find(x=>x.slug===preOpen||String(x.id)===preOpen);if(p) openModal(p.id);}
+
+      // Legal modal
+      document.getElementById('lnkTerms')?.addEventListener('click',e=>{e.preventDefault();openLegal('terms');});
+      document.getElementById('lnkPrivacy')?.addEventListener('click',e=>{e.preventDefault();openLegal('privacy');});
+      document.getElementById('legalClose')?.addEventListener('click',()=>document.getElementById('legalOverlay').classList.remove('open'));
+      document.getElementById('legalOverlay')?.addEventListener('click',e=>{if(e.target===e.currentTarget) e.currentTarget.classList.remove('open');});
+    }
+
+    function openLegal(type){
+      const overlay=document.getElementById('legalOverlay');
+      const title=document.getElementById('legalTitle');
+      const body=document.getElementById('legalBody');
+      if(type==='terms'){
+        title.textContent='Términos y condiciones';
+        body.innerHTML=`<h4>1. Uso del menú digital</h4>
+          <p>Este menú digital es una herramienta informativa de Pizza Planet para facilitar la recepción de pedidos a través de WhatsApp. La realización del pedido implica la aceptación de estos términos.</p>
+          <h4>2. Pedidos y pagos</h4>
+          <p>Los pedidos se confirman únicamente a través de WhatsApp. Los precios están expresados en dólares americanos (USD) e incluyen IVA. Pizza Planet se reserva el derecho de modificar precios sin previo aviso.</p>
+          <h4>3. Entrega</h4>
+          <p>El tiempo de entrega es estimado y puede variar según la demanda y la distancia. El costo de envío se acordará directamente con el cliente al confirmar el pedido.</p>
+          <h4>4. Cancelaciones</h4>
+          <p>Una vez confirmado el pedido por WhatsApp, la cancelación queda sujeta a la aprobación del local. Los pedidos en proceso de preparación no admiten cancelación.</p>
+          <h4>5. Disponibilidad</h4>
+          <p>La disponibilidad de productos está sujeta al stock del local. Pizza Planet no garantiza la disponibilidad de todos los productos en todo momento.</p>`;
+      } else {
+        title.textContent='Política de privacidad';
+        body.innerHTML=`<h4>1. Datos recopilados</h4>
+          <p>Al realizar un pedido, recopilamos: nombre completo, número de teléfono y dirección de entrega. Estos datos se utilizan exclusivamente para procesar y entregar tu pedido.</p>
+          <h4>2. Uso de los datos</h4>
+          <p>Los datos personales proporcionados no serán vendidos, cedidos ni compartidos con terceros ajenos a Pizza Planet, salvo requerimiento legal.</p>
+          <h4>3. WhatsApp</h4>
+          <p>La comunicación se realiza a través de WhatsApp. Al contactarnos, aceptas los términos y la política de privacidad de WhatsApp (Meta Platforms, Inc.).</p>
+          <h4>4. Cookies</h4>
+          <p>Este sitio utiliza localStorage del navegador únicamente para recordar el contenido de tu carrito y tus favoritos. No utilizamos cookies de seguimiento ni publicidad.</p>
+          <h4>5. Contacto</h4>
+          <p>Para cualquier consulta sobre tus datos, contáctanos al WhatsApp +593969064106.</p>`;
+      }
+      overlay.classList.add('open');
     }
 
     init().catch(err=>{

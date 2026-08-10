@@ -16,7 +16,7 @@
   <section class="hero">
     <div class="hero-top">
       <div class="brand">
-        <img class="brand-logo" id="brandLogo" src="logo.png" alt="Deli Xpress"/>
+        <img class="brand-logo" id="brandLogo" src="logo.webp" alt="Pizza Planet"/>
         <div class="brand-name" id="brandName" hidden></div>
         <div class="brand-sub" style="margin-left:2px">Pide en 2 toques</div>
       </div>
@@ -39,7 +39,18 @@
   <!-- CATALOG -->
   <main id="catalog"></main>
 
-  <footer><p id="footerText">© <span id="footerYear"></span> <a href="#" id="footerLink">Catálogo</a></p></footer>
+  <footer><p id="footerText"></p></footer>
+
+  <!-- Legal modal -->
+  <div class="legal-overlay" id="legalOverlay">
+    <div class="legal-modal">
+      <div class="legal-header">
+        <h3 id="legalTitle"></h3>
+        <button id="legalClose" aria-label="Cerrar">✕</button>
+      </div>
+      <div class="legal-body" id="legalBody"></div>
+    </div>
+  </div>
 
   <!-- MINI CART PEEK -->
   <button class="cart-peek" id="cartPeek">

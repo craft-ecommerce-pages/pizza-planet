@@ -43,6 +43,11 @@
     ],
     "telefono_principal": "+593969064106"
   },
+  "social": {
+    "facebook": "https://www.facebook.com/pizzaplanetecuador",
+    "instagram": "https://www.instagram.com/pizzaplanetecuador/",
+    "tiktok": "https://www.tiktok.com/@pizzaplanet_quito_valles"
+  },
   "min_days_advance": null,
   "min_units": null,
   "site_title": "Pizza Planet – La mejor pizza de la galaxia",

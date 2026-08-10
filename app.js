@@ -50,8 +50,9 @@
     function getEffectivePrice(p,variantes){
       if(!variantes||!Object.keys(variantes).length) return parsePrice(p);
       if(Array.isArray(p.variantes)){
-        for(const g of p.variantes){
-          const sel=variantes[g.name];
+        for(let i=0;i<p.variantes.length;i++){
+          const g=p.variantes[i];
+          const sel=variantes[i];
           if(sel!==undefined){
             const opt=g.options.find(o=>getOptionKey(o)===sel);
             const vp=opt?getOptionPrice(opt):null;
@@ -346,7 +347,7 @@
       const stock=getStockInfo(p);
       const dist=wingsDist(p);
       const distSum=dist?dist.group.options.reduce((s,o)=>s+(modalDist[getOptionKey(o)]||0),0):0;
-      const allSelected=!hasVariants||(dist?distSum===dist.total:p.variantes.every(g=>modalVariants[g.name]));
+      const allSelected=!hasVariants||(dist?distSum===dist.total:p.variantes.every((_,i)=>modalVariants[i]));
       const effPrice=allSelected&&!dist?getEffectivePrice(p,modalVariants):parsePrice(p);
       const canAddModal=stock.canAdd&&allSelected;
 
@@ -366,12 +367,12 @@
       } else if(hasVariants){
         // opt.label already has price embedded (from processVariants price_select) — don't add it again
         const optLabel=opt=>{const d=getOptionDisplay(opt),pr=getOptionPrice(opt);return(pr!==null&&typeof opt==='string')?`${d} (${formatPrice(pr)})`:d;};
-        variantHTML='<div class="customize-label">Personaliza</div>'+p.variantes.map(g=>{
-          const cur=modalVariants[g.name]||'';
+        variantHTML='<div class="customize-label">Personaliza</div>'+p.variantes.map((g,idx)=>{
+          const cur=modalVariants[idx]||'';
           if(g.options.length>4){
             return `<div class="variant-group">
               <div class="variant-glabel">${g.name||'Opciones'}</div>
-              <select class="variant-select" data-group="${g.name}">
+              <select class="variant-select" data-group-idx="${idx}">
                 <option value="">— Elige una opción —</option>
                 ${g.options.map(opt=>{const k=getOptionKey(opt);return`<option value="${k}"${cur===k?' selected':''}>${optLabel(opt)}</option>`;}).join('')}
               </select>
@@ -380,7 +381,7 @@
           return `<div class="variant-group">
             <div class="variant-glabel">${g.name||'Opciones'}</div>
             <div class="variant-options">
-              ${g.options.map(opt=>{const oKey=getOptionKey(opt);return`<button class="variant-option${cur===oKey?' selected':''}" data-group="${g.name}" data-opt="${oKey}">${optLabel(opt)}</button>`;}).join('')}
+              ${g.options.map(opt=>{const oKey=getOptionKey(opt);return`<button class="variant-option${cur===oKey?' selected':''}" data-group-idx="${idx}" data-opt="${oKey}">${optLabel(opt)}</button>`;}).join('')}
             </div>
           </div>`;
         }).join('');
@@ -429,16 +430,16 @@
       }));
       $modalDetail.querySelectorAll('.variant-option').forEach(btn=>{
         btn.addEventListener('click',()=>{
-          const {group,opt}=btn.dataset;
-          if(modalVariants[group]===opt) delete modalVariants[group];
-          else modalVariants[group]=opt;
+          const idx=+btn.dataset.groupIdx,opt=btn.dataset.opt;
+          if(modalVariants[idx]===opt) delete modalVariants[idx];
+          else modalVariants[idx]=opt;
           renderModalDetail();
         });
       });
       $modalDetail.querySelectorAll('.variant-select').forEach(sel=>{
         sel.addEventListener('change',()=>{
-          const g=sel.dataset.group;
-          if(sel.value) modalVariants[g]=sel.value; else delete modalVariants[g];
+          const idx=+sel.dataset.groupIdx;
+          if(sel.value) modalVariants[idx]=sel.value; else delete modalVariants[idx];
           renderModalDetail();
         });
       });

@@ -15,6 +15,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -50,6 +51,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -67,6 +69,7 @@
         ]
       },
       {
+        "name": "Bebida 1lt",
         "options": [
           "Pepsi 1 litro",
           "Manzana 1 litro",
@@ -97,6 +100,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza 1",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -114,6 +118,7 @@
         ]
       },
       {
+        "name": "Sabor Pizza 2",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -131,6 +136,7 @@
         ]
       },
       {
+        "name": "Bebida 1lt",
         "options": [
           "Pepsi 1 litro",
           "Manzana 1 litro",
@@ -161,6 +167,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza 1",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -178,6 +185,7 @@
         ]
       },
       {
+        "name": "Sabor Pizza 2",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -213,6 +221,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza 1",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -230,6 +239,7 @@
         ]
       },
       {
+        "name": "Sabor Pizza 2",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -247,6 +257,7 @@
         ]
       },
       {
+        "name": "Bebida 1lt",
         "options": [
           "Pepsi 1 litro",
           "Manzana 1 litro",
@@ -277,6 +288,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza 1",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -294,6 +306,7 @@
         ]
       },
       {
+        "name": "Sabor Pizza 2",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -311,6 +324,7 @@
         ]
       },
       {
+        "name": "Sabor Pizza 3",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -346,6 +360,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza 1",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -363,6 +378,7 @@
         ]
       },
       {
+        "name": "Sabor Pizza 2",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -380,6 +396,7 @@
         ]
       },
       {
+        "name": "Sabor Pizza 3",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -415,6 +432,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor",
         "options": [
           {
             "label": "Pepsi 1 litro ($2.00)",
@@ -469,6 +487,7 @@
     ],
     "variantes": [
       {
+        "name": "Tipo de Lasaña",
         "options": [
           "Lasaña Planet (carne premium, extra queso, tocino y champiñones) +$1",
           "Lasaña de Carne (carne premium)",
@@ -476,12 +495,14 @@
         ]
       },
       {
+        "name": "Ensalada",
         "options": [
           "Italiana (Lechuga, tomate, jamón, queso y salsa mayo planet)",
           "Griega (Lechuga, tomate, champiñones, aceitunas, jamón, pasas) +$0.25"
         ]
       },
       {
+        "name": "Bebida",
         "options": [
           "Coca-Cola 300ml +$0.25",
           "Fanta 250ml",
@@ -510,6 +531,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza",
         "options": [
           "Jamón Personal",
           "Pepperoni",
@@ -531,12 +553,14 @@
         ]
       },
       {
+        "name": "Ensalada",
         "options": [
           "Italiana (Lechuga, tomate, jamón, queso y salsa mayo planet)",
           "Griega (Lechuga, tomate, champiñones, aceitunas, jamón, pasas) +$0.25"
         ]
       },
       {
+        "name": "Bebida",
         "options": [
           "Coca-Cola 300ml +$0.25",
           "Fanta 250ml",
@@ -565,6 +589,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -582,6 +607,7 @@
         ]
       },
       {
+        "name": "Bebida 1lt",
         "options": [
           "Pepsi 1 litro",
           "Manzana 1 litro",
@@ -663,6 +689,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza 1",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -680,6 +707,7 @@
         ]
       },
       {
+        "name": "Sabor Pizza 2",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -697,6 +725,7 @@
         ]
       },
       {
+        "name": "Bebida 1lt",
         "options": [
           "Pepsi 1 litro",
           "Manzana 1 litro",
@@ -709,6 +738,7 @@
         ]
       },
       {
+        "name": "Bebida 2 (1lt)",
         "options": [
           "Pepsi 1 litro",
           "Manzana 1 litro",
@@ -739,6 +769,7 @@
     ],
     "variantes": [
       {
+        "name": "Tipo de Lasaña",
         "options": [
           "Lasaña Planet (carne premium, extra queso, tocino y champiñones) +$1",
           "Lasaña de Carne (carne premium)",
@@ -798,6 +829,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza",
         "options": [
           "Jamón Personal",
           "Pepperoni",
@@ -837,6 +869,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -872,6 +905,7 @@
     ],
     "variantes": [
       {
+        "name": "Sabor Pizza",
         "options": [
           "Americana (Mozzarella, jamón, salami, pepperoni y tocino)",
           "Andina (Mozzarella, tocino, choclo, dulce y cebolla)",
@@ -889,6 +923,7 @@
         ]
       },
       {
+        "name": "Bebida 1lt",
         "options": [
           "Pepsi 1 litro",
           "Manzana 1 litro",

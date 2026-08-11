@@ -38,6 +38,8 @@
     const getOptionKey=o=>(typeof o==='object'&&o!==null)?(o.label||''):String(o);
     const getOptionDisplay=getOptionKey;
     const getOptionPrice=o=>(typeof o==='object'&&o!==null&&typeof o.price==='number')?o.price:null;
+    // Recargo aditivo embebido en el nombre: "... +$1", "... +$0.25". Suma sobre la base.
+    const getOptionDelta=o=>{const m=String(getOptionDisplay(o)).match(/\+\s*\$?\s*([0-9]+(?:[.,][0-9]+)?)/);return m?parseFloat(m[1].replace(',','.')):0;};
     // ponytail: alitas/wings con >=8 uds y >1 salsa → repartir cantidad por salsa. Total sale del nombre ("x 8", "x20").
     const unitCount=p=>{const m=(p.nombre||'').match(/x\s*(\d+)/i);return m?+m[1]:0;};
     function wingsDist(p){
@@ -49,18 +51,19 @@
 
     function getEffectivePrice(p,variantes){
       if(!variantes||!Object.keys(variantes).length) return parsePrice(p);
+      let absolute=null,delta=0;
       if(Array.isArray(p.variantes)){
         for(let i=0;i<p.variantes.length;i++){
-          const g=p.variantes[i];
           const sel=variantes[i];
-          if(sel!==undefined){
-            const opt=g.options.find(o=>getOptionKey(o)===sel);
-            const vp=opt?getOptionPrice(opt):null;
-            if(vp!==null) return vp;
-          }
+          if(sel===undefined) continue;
+          const opt=p.variantes[i].options.find(o=>getOptionKey(o)===sel);
+          if(!opt) continue;
+          const vp=getOptionPrice(opt);
+          if(vp!==null) absolute=vp;      // selector absoluto (ej. Bebidas 1L)
+          else delta+=getOptionDelta(opt); // recargo aditivo del combo
         }
       }
-      return parsePrice(p);
+      return (absolute!==null?absolute:parsePrice(p))+delta;
     }
     function formatPrice(n){
       const c=config.currency||'$';

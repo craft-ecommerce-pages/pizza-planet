@@ -182,7 +182,8 @@
           "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
           "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
           "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
+        ],
+        "type": "option"
       },
       {
         "name": "Sabor Pizza 2",
@@ -196,11 +197,11 @@
           "New York (Doble mozzarella, doble pepperoni)",
           "Portuguesa (Mozzarella, tomates, aceitunas, champiñones, cebolla y pimiento)",
           "SuperPlanet (Mozzarella, jamón, salami, pepperoni, champiñones y pimientos)",
-          "Texana (Mozzarella, pollo, champiñones, pimientos y salsa BBQ) +$1",
           "Dubai (Mozzarella, pepperoni, tocino, carne, jamón, aceitunas, cebolla y champiñones) +$1.50",
           "Española (Mozzarella, chorizo, pepperoni, pimientos verdes y cebolla) +$1",
           "Mexicana (Mozzarella, chorizo, carne, pimiento, cebolla y jalapeños) +$1"
-        ]
+        ],
+        "type": "option"
       }
     ],
     "sku": "685"
